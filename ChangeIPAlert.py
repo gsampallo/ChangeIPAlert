@@ -11,7 +11,7 @@ class ChangeIPAlert():
         if new_ip:
             if not new_ip == self._old_ip:
                 print("The IP change from {} to {}".format(self._old_ip,new_ip))
-                self.send_alert(ip)
+                self.send_alert(new_ip)
                 self.update_parameters(new_ip)
 
 
