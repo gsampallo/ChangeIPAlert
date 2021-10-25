@@ -6,11 +6,7 @@ A simple but useful python script, that alert you via Pushbullet when the IP of 
 
 - Requests
 ```bash
-pip3 install requests
-```
-- BeautifulSoup
-```bash
-pip3 install beautifulsoup4
+pip install public-ip
 ```
 - Pushbullet
 ```bash
@@ -25,3 +21,4 @@ python ChangeIPAlert.py
 ```
 
 If you are on linux, you can use cron to schedule the task. See [crontab guru](https://crontab.guru/examples.html) to more details.
+Thanks to vterron for the [public-ip](https://github.com/vterron/public-ip) module, that's a great job.
